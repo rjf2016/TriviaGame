@@ -167,7 +167,6 @@ function ShowAnswer(questionNumber, isCorrect)
 	else
 	{
 		s="Sorry";
-		s="Correct";
 		var audio = new Audio("assets/sounds/lost-life.wav");
 		audio.play();
 	}
