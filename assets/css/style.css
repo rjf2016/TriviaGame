@@ -1,0 +1,117 @@
+body 
+{
+  clear:both;	
+  position: relative;
+  background-image: url("../images/mario-wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:#777777;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ 
+}
+
+.nintendo-container
+{
+    /*position: relative;*/ 
+    text-align: center;
+    width: 512px;
+    margin: 50px auto 0;
+    margin-top: 50px;
+    font-size: 20pt;
+}
+.nintendo-container img
+{
+	/*position: relative;*/
+	width: 512px;
+    height: 512px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    /* border: 5px solid #dddddd; */
+}
+
+.q-div
+{
+	position: absolute;
+    top: 45px;
+    /*left: 187px;*/
+    width: 512px;
+    height: 180px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18pt;
+    color: white;
+    /* border: 5px solid #dddddd; */
+   
+}
+
+.q-div .q-text{
+	text-align: center;
+	width: 279.55px;
+	margin: 0 auto;
+	/* border: 1px solid #dddddd; */
+}
+
+.q-div .q-timer{
+	position: absolute; 
+	text-align: center;
+	font-size: 18pt;
+	top: 146px;
+	width: 100%;
+	margin: 0 auto;
+	color: white;
+	/* border: 1px solid #dddddd; */
+}
+
+.a-div
+{
+    position: absolute; 
+    top: 235px;
+    /*left: 212px;*/
+    width: 512px;
+    height: 190px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 15pt;
+   /* border: 5px solid #dddddd; */
+}
+
+.a-div .a-text{
+	text-align: center;
+	line-height:40px;
+	font-size: 14pt;
+	width: 512px;
+	margin: 0 auto;
+	padding-left: 10px;
+	/*padding-top: 10px;*/
+	color: white;
+	/* border: 1px solid #dddddd; */
+}
+
+.a-div .a-text:hover{
+		text-align: center;
+		font-size: 14pt;
+		background: black;
+		color: white;
+		width: 54.6%;
+	/*	border: 1px solid #dddddd; */
+}
+
+.a-div .result-text{
+		text-align: center;
+		font-size: 12pt;
+		color: white;
+		width: 512px;
+		margin: 0 auto;
+}
+
+.a-div .result-img
+{
+	margin: 0 auto;
+	width: 144px;
+    height: 144px;
+    /*left:60px;*/
+    border: 1px solid black;
+}
